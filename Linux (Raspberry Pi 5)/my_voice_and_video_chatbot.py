@@ -4,16 +4,12 @@ import threading
 import cv2
 import os
 from detected_faces import DetectedFaces
+from Config import *
 
 os.environ["QT_QPA_PLATFORM"] = "xcb"  # Use the X11 plugin
 
 
 threads = []
-
-camera_id = 0
-
-# Replace this with the correct microphone index
-mic_index = 1  # Change to the index of your USB microphone
 
 detected_faces = DetectedFaces()
 stop_event = threading.Event()
