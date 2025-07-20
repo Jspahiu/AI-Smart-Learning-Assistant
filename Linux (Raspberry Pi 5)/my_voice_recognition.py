@@ -154,13 +154,14 @@ class VoiceRecognitionThread(threading.Thread):
         
 
     def record_with_vad(self):
+        global CHANNEL, SAMPLE_RATE, FRAME_SIZE, mic_index, MAX_SILENCE_FRAMES, FILENAME, MIC_NAME
         print("Listening... (speak now)")
         audio_frames = []
         voiced_frame_count = 0
         silence_frame_count = 0
         recording = False
 
-        with sd.InputStream(channels=1, samplerate=SAMPLE_RATE, dtype='int16', blocksize=FRAME_SIZE) as stream:
+        with sd.InputStream(cevice=mic_index, channels=CHANNEL, samplerate=SAMPLE_RATE, dtype='int16', blocksize=FRAME_SIZE) as stream:
             while True:
                 audio_block, _ = stream.read(FRAME_SIZE)
                 audio_bytes = audio_block.tobytes()
