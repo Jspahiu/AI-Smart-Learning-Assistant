@@ -1,7 +1,7 @@
 # AI Smart Learning Assistant with OPENAI Chatbot with Face Detection & Voice Interaction
 
 
-![How it Works!](README Images/Readme_Image1.png)
+![How it Works!](README%20Images/Readme_Image1.png)
 
 ## 👋 About Me
 I'm a passionate 12 year old student with a strong interest in Python and Artificial Intelligence. My favorite projects involve AI, and some game development. I am also in the Hack Club for extra support for my projects.
@@ -28,7 +28,7 @@ This project is an advanced AI assistant that interacts with users only when the
    The response is spoken back to the user using [ElevenLabs TTS](https://elevenlabs.io/) for realistic, human-like voices.
 
 
-![How it Works!](README Images/Readme_Image1.png)
+![How it Works!](README%20Images/Readme_Image1.png)
 
 ---
 
