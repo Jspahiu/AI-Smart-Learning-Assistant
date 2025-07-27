@@ -8,15 +8,11 @@ I'm a passionate 12 year old student with a strong interest in Python and Artifi
 
 ---
 
-## Extra Infomation/Info Links
-Slides For Extra Info:
-https://www.canva.com/design/DAGtr9JIF9c/WJH7KuGL-aDJ_i0GtBn2MQ/view?utm_content=DAGtr9JIF9c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fe98d52c
+## 🔗 Useful Links
 
-Website For Extra Info:
-https://jspahiu.github.io/AI_Smart_Learning_Assistant/
-
-Video Demo:
-
+- 🌐 [Infomation Website](https://jspahiu.github.io/AI_Smart_Learning_Assistant/) - **Which also includes the links below!**
+- 🎥 [Demo Video](https://www.youtube.com/watch?v=...)
+- 🖼️ [Canva Slides](https://www.canva.com/design/DAGtr9JIF9c/WJH7KuGL-aDJ_i0GtBn2MQ/view?utm_content=DAGtr9JIF9c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fe98d52c)
 
 
 ## 📝 Project Description
@@ -120,12 +116,10 @@ I enjoy combining my love for programming and AI to make fun and useful things. 
 
 If you like my project, please vote for me for future support of this project!
 
-## Extra Infomation
-Slides For Extra Info:
-https://www.canva.com/design/DAGtr9JIF9c/WJH7KuGL-aDJ_i0GtBn2MQ/view?utm_content=DAGtr9JIF9c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fe98d52c
+## 🔗 Useful Links
 
-Website For Extra Info:
-https://jspahiu.github.io/AI_Smart_Learning_Assistant/
+- 🌐 [Infomation Website](https://jspahiu.github.io/AI_Smart_Learning_Assistant/) - **Which also includes the links below!**
+- 🎥 [Demo Video](https://www.youtube.com/watch?v=...)
+- 🖼️ [Canva Slides](https://www.canva.com/design/DAGtr9JIF9c/WJH7KuGL-aDJ_i0GtBn2MQ/view?utm_content=DAGtr9JIF9c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fe98d52c)
 
-Video Demo:
-
+---
