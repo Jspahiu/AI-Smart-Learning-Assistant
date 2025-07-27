@@ -34,11 +34,7 @@ This project is an advanced AI assistant that interacts with users only when the
 
 ## 💡 Key Technologies
 
-- **Python**
-- face_recognition (Computer Vision)
-- OpenAI Whisper (Speech Recognition)
-- OpenAI RAG (GEN AI)
-- ElevenLabs TTS (Speech Synthesis)
+**Made with 100% Python with packages included below**
 
 **Main Packages**:
 
