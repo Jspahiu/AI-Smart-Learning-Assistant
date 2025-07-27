@@ -8,6 +8,17 @@ I'm a passionate 12 year old student with a strong interest in Python and Artifi
 
 ---
 
+## Extra Infomation/Info Links
+Slides For Extra Info:
+https://www.canva.com/design/DAGtr9JIF9c/WJH7KuGL-aDJ_i0GtBn2MQ/view?utm_content=DAGtr9JIF9c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fe98d52c
+
+Website For Extra Info:
+https://jspahiu.github.io/AI_Smart_Learning_Assistant/
+
+Video Demo:
+
+
+
 ## 📝 Project Description
 
 This project is an advanced AI assistant that interacts with users only when their face is detected. It combines computer vision, speech recognition, and state-of-the-art AI to provide a truly hands-free and interactive experience. All responses are spoken aloud using realistic TTS voices!
