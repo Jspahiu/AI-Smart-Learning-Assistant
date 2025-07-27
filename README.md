@@ -3,11 +3,6 @@
 
 ![How it Works!](README%20Images/Readme_Image1.png)
 
-## 👋 About Me
-I'm a passionate 12 year old student with a strong interest in Python and Artificial Intelligence. My favorite projects involve AI, and some game development. I am also in the Hack Club for extra support for my projects.
-
----
-
 ## 🔗 Useful Links
 
 - 🌐 [Infomation Website](https://jspahiu.github.io/AI_Smart_Learning_Assistant_Website/) - **Which also includes the links below!**
@@ -15,7 +10,12 @@ I'm a passionate 12 year old student with a strong interest in Python and Artifi
 - 🎥 [Demo Video](https://www.youtube.com/watch?v=...)
 - 🖼️ [Canva Slides](https://www.canva.com/design/DAGtr9JIF9c/WJH7KuGL-aDJ_i0GtBn2MQ/view?utm_content=DAGtr9JIF9c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fe98d52c)
 
+---
 
+## 👋 About Me
+I'm a passionate 12 year old student with a strong interest in Python and Artificial Intelligence. My favorite projects involve AI, and some game development. I am also in the Hack Club for extra support for my projects.
+
+---
 
 ## 📝 Project Description
 
