@@ -5,8 +5,9 @@ from simple_facerec import SimpleFacerec
 from detected_faces import DetectedFaces
 
 # Class to handle video capture from a camera
-class MyFaceRecognition():
+class FaceRecognitionThread(threading.Thread):
     def __init__(self, camera_id:int, window_name:str, images_path:str, detected_faces: DetectedFaces, stop_event: threading.Event):
+        threading.Thread.__init__(self)
         self.camera_id = camera_id
         self.window_name = window_name
         self.cap = cv2.VideoCapture(camera_id)
@@ -24,18 +25,9 @@ class MyFaceRecognition():
         # Initialize Pygame
         pygame.init()
 
-        # Get camera feed dimensions
-        camera_width = int(self.cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-        camera_height = int(self.cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-
-        # Set Pygame screen dimensions
-        screen_width, screen_height = 800, 600  # Example screen size
-        screen = pygame.display.set_mode((screen_width, screen_height))
-        pygame.display.set_caption("My Voice and Face Chatbot")
-        
-        # Calculate center position for the camera feed
-        x = (screen_width - camera_width) // 2
-        y = (screen_height - camera_height) // 2
+        # Set up the window
+        window_size = (640, 480)
+        screen = pygame.display.set_mode(window_size)
 
         while self.running and not self.stop_event.is_set():
 
@@ -47,6 +39,8 @@ class MyFaceRecognition():
             # Detect faces
             face_locations, face_names = self.sfr.detect_known_faces(frame)
 
+            is_new_face_detected = False
+            
             my_detected_faces = []
 
             # Loop through detected faces and draw rectangles and text
@@ -62,14 +56,21 @@ class MyFaceRecognition():
                     my_detected_faces.append(name)
 
             self.detected_faces.set_detected_faces(my_detected_faces)
+            
+            # Display the frame in a window
+            #cv2.imshow(self.window_name, frame)
 
             # Convert BGR to RGB (Pygame expects RGB format)
             frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
+            # Convert to Pygame Surface
+            #frame_surface = pygame.surfarray.make_surface(frame_rgb)
+
             frame_surface = pygame.image.frombuffer(frame_rgb.tobytes(), frame_rgb.shape[1::-1], "RGB")
 
-            screen.blit(pygame.transform.scale(frame_surface, (camera_width, camera_height)), (x, y))
 
+            # Display the frame
+            screen.blit(frame_surface, (0, 0))
             pygame.display.update()
 
             # Check for user input to close the camera window
@@ -85,6 +86,7 @@ class MyFaceRecognition():
         # Release the capture object and close the window
         pygame.quit()
         self.cap.release()
+        #cv2.destroyWindow(self.window_name)
 
     def stop(self):
         self.running = False
