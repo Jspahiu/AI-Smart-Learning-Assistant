@@ -10,7 +10,6 @@ elevenlabs
 sounddevice
 soundfile
 SpeechRecognition
-pyobjc
 webrtcvad
 geocoder
 langchain-community
