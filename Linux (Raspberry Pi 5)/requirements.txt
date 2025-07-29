@@ -1,9 +1,10 @@
 cmake
-dlib==19.24.2    
+dlib==19.24.2
 face_recognition   
 setuptools
 numpy==1.26.4
 opencv-python
+pygame
 openai-whisper
 elevenlabs
 sounddevice
@@ -16,3 +17,11 @@ opencv-python
 elevenlabs
 pyobjc
 webrtcvad
+geocoder
+langchain-community
+openai
+faiss_cpu
+token
+pyaudio
+yt-dlp
+python-vlc
