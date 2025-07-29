@@ -9,10 +9,7 @@ openai-whisper
 elevenlabs
 sounddevice
 soundfile
-openai-whisper
 SpeechRecognition
-opencv-python
-elevenlabs
 pyobjc
 webrtcvad
 geocoder
@@ -23,3 +20,4 @@ token
 pyaudio
 yt-dlp
 python-vlc
+python-dotenv
