@@ -8,10 +8,7 @@ openai-whisper
 elevenlabs
 sounddevice
 soundfile
-openai-whisper
 SpeechRecognition
-opencv-python
-elevenlabs
 pyobjc
 webrtcvad
 geocoder
@@ -19,3 +16,4 @@ langchain-community
 faiss_cpu
 token
 pyaudio
+python-dotenv
