@@ -6,7 +6,7 @@
 ## 🔗 Useful Links
 
 - 🌐 [Infomation Website](https://jspahiu.github.io/AI_Smart_Learning_Assistant_Website/) - **Which also includes the links below!**
-- 🌐 [Hack Club Summer Making Project Link](https://summer.hackclub.com/projects/7469)
+- 🌐 [Hack Club Summer Making Project Link](https://summer.hackclub.com/projects/7469) - **Vote/Follow this project here!!**
 - 🎥 [Demo Video](https://www.youtube.com/watch?v=...)
 - 🖼️ [Canva Slides](https://www.canva.com/design/DAGtr9JIF9c/WJH7KuGL-aDJ_i0GtBn2MQ/view?utm_content=DAGtr9JIF9c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fe98d52c)
 
@@ -48,8 +48,8 @@ This project is an advanced AI assistant that interacts with users only when the
 **Main Packages**:
 
 - OS and Dotenv (Getting API Keys from .env files)
-- SpeechRecognition (Old Speech Recognition Package)
-- Pyttsx3 (Old TTS - Text to Speech Package)
+- SpeechRecognition (Old Speech Recognition Package) - **Not Currently Used in v2.0.0 or above**
+- Pyttsx3 (Old TTS - Text to Speech Package) - **Not Currently Used in v2.0.0 or above**
 - ElevenLabs (New TTS - Text to Speech Package)
 - Whisper (Used for STT - Speech to Text, New Speech Recognition Package)
 - Sounddevice (Recording Audio)
@@ -71,8 +71,8 @@ This project is an advanced AI assistant that interacts with users only when the
 - Datetime (Check Time, Give Time of Day Welcomes)
 - Geocoder (Track Location including latitude and longitude for weather API)
 - Requests (Uses Open-Meteo API keys to find the weather and temperature in the area for weather question and for random greetings)
-- Yt_dlp (Used for finding the youtube video)(LINUX ONLY)
-- Vlc (Used for playing the youtube video)(LINUX ONLY)
+- Yt_dlp (Used for finding the youtube video) - **LINUX ONLY**
+- Vlc (Used for playing the youtube video) - **LINUX ONLY**
 
 
 ---
@@ -93,10 +93,10 @@ This project is an advanced AI assistant that interacts with users only when the
 
 - Windows computers are sadly not compatible due to module supporting issues (face_recongition)
 - If you have an older pi like (Pi 4 or older), be aware of performance issues and compatibility issues since not have been tested on there
-- If you are running linux but another machine or/and a different computer, follow the linux tutorial but not have been tested on other OS (Only Raspberry Pi OS).
+- If you are running linux but another machine or/and a different computer, follow the linux tutorial but it has not been tested on any other linux OS (Except Raspberry Pi OS).
 - If you are running a intel mac, make sure you at least have a OS new enough for Python 3.12
 
-**SO NO GUARANTEE OR IMPOSSIBLE IT WILL WORK IF YOU DO NOT HAVE DEVICES WITH BOLD TEXT**
+**SO NO GUARANTEE OR IMPOSSIBLE IT WILL WORK IF YOU DO NOT HAVE DEVICES WITH BOLD TEXT ABOVE**
 
 ---
 
@@ -109,19 +109,19 @@ I enjoy combining my love for programming and AI to make fun and useful things. 
 ## ✨ Future Plans
 
 - Add more commands (home automation, flight info (via API))
-- Enhance voice customization (With Popular Character voices)
+- Enhance voice customization (With popular character voices)
 - Adding a web version accessible to everyone
 
 ---
 
-## 🗳️ Vote (If you are in the Hack Club)
+## 🗳️ Vote/Follow (If you are in the Hack Club)
 
-If you like my project, please vote for me for future support of this project!
+If you like my project, please vote or follow for me for future support of this project!
 
 ## 🔗 Useful Links
 
 - 🌐 [Infomation Website](https://jspahiu.github.io/AI_Smart_Learning_Assistant_Website/) - **Which also includes the links below!**
-- 🌐 [Hack Club Summer Making Project Link](https://summer.hackclub.com/projects/7469)
+- 🌐 [Hack Club Summer Making Project Link](https://summer.hackclub.com/projects/7469) - **Vote/Follow this project here!!**
 - 🎥 [Demo Video](https://www.youtube.com/watch?v=...)
 - 🖼️ [Canva Slides](https://www.canva.com/design/DAGtr9JIF9c/WJH7KuGL-aDJ_i0GtBn2MQ/view?utm_content=DAGtr9JIF9c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fe98d52c)
 ---
