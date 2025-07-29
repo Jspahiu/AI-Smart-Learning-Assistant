@@ -10,8 +10,6 @@ elevenlabs
 sounddevice
 soundfile
 openai-whisper
-sounddevice
-soundfile
 SpeechRecognition
 opencv-python
 elevenlabs
