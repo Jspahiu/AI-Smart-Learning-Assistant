@@ -4,7 +4,6 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain_openai import OpenAI
-from langchain.prompts import PromptTemplate
 import os.path
 from Config import *
 
@@ -66,6 +65,7 @@ class Chatbot:
     
     def _build_qa(self, persisted_vectorstore):
         # Define a custom prompt template
+        from langchain.prompts import PromptTemplate
 
         prompt_template = """
         Your name is Smart Assistant. You are an intelligent and helpful AI assistant.
@@ -75,7 +75,7 @@ class Chatbot:
         If includes anything like, "nothing", say, "Ok cool!"
         If you don't know the answer, just say "sorry, I dont know how what you meant! Anything else I can help you with?" without ever making things up.
         Do not say, "can I assist you with?" or anything with "assist" in a sentence.
-        If includes anything like, "bye" or "goodbye", say a nice goodbye comment without making things up.
+        If includes anything like, "bye" or "goodbye", say a nice goodbye comment like this sentence, "Goodbye, and have a nice day!" and do not make anything up from what you know.
         
         Context:
         {context}

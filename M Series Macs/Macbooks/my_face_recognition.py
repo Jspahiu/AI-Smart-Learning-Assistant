@@ -62,7 +62,7 @@ class MyFaceRecognition():
                     my_detected_faces.append(name)
 
             self.detected_faces.set_detected_faces(my_detected_faces)
-
+            
             # Convert BGR to RGB (Pygame expects RGB format)
             frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 

@@ -48,14 +48,9 @@ This project is an advanced AI assistant that interacts with users only when the
 **Main Packages**:
 
 - OS and Dotenv (Getting API Keys from .env files)
-- SpeechRecognition (Old Speech Recognition Package) - **Not Currently Used in v2.0.0 or above**
-- Pyttsx3 (Old TTS - Text to Speech Package) - **Not Currently Used in v2.0.0 or above**
-- ElevenLabs (New TTS - Text to Speech Package)
-- Whisper (Used for STT - Speech to Text, New Speech Recognition Package)
-- Sounddevice (Recording Audio)
-- Soundfile (Write Audio File for Whisper)
+- SpeechRecognition (Old Speech Recognition Package)
+- Pyttsx3 (Old TTS - Text to Speech Package)
 - Numpy (Getting Full Audio from SoundDevice, Getting Best Match Index using the Argmin function in numpy which finds the smallest number in an array)
-- Webrtcvad (Stops the listening process when the person stops talking)
 - Glob (Getting Image Files for Face Recognition)
 - FaceRecognition (Current Face Recognition Package)
 - Langchain (For LLM, PDF Files Loader, and Vector Database)
@@ -68,9 +63,6 @@ This project is an advanced AI assistant that interacts with users only when the
 **Other Packages**:
 
 - Random (For random welcomes!)
-- Datetime (Check Time, Give Time of Day Welcomes)
-- Geocoder (Track Location including latitude and longitude for weather API)
-- Requests (Uses Open-Meteo API keys to find the weather and temperature in the area for weather question and for random greetings)
 - Yt_dlp (Used for finding the youtube video) - **LINUX ONLY**
 - Vlc (Used for playing the youtube video) - **LINUX ONLY**
 
@@ -109,7 +101,7 @@ I enjoy combining my love for programming and AI to make fun and useful things. 
 ## ✨ Future Plans
 
 - Add more commands (home automation, flight info (via API))
-- Enhance voice customization (With popular character voices)
+- Add a better Speech Recognition and Text to Speech - **Fixed in v2.0.0**
 - Adding a web version accessible to everyone
 
 ---
