@@ -19,7 +19,7 @@ I'm a passionate 12 year old student with a strong interest in Python and Artifi
 
 ## 📝 Project Description
 
-This project is an advanced AI assistant that interacts with users only when their face is detected. It combines computer vision, speech recognition, and state-of-the-art AI to provide a truly hands-free and interactive experience. All responses are spoken aloud using realistic TTS voices!
+This project is an advanced AI assistant that interacts with users only when their face is detected. It combines computer vision, speech recognition, and state-of-the-art AI to provide a truly hands-free and interactive experience. All responses are spoken aloud using realistic TTS voices **v2.0.0 and above!**!
 
 ### 🔄 How It Works
 
@@ -27,14 +27,14 @@ This project is an advanced AI assistant that interacts with users only when the
    Uses the [face_recognition](https://github.com/ageitgey/face_recognition) library to detect when a person's face is present.
 
 2. **Speech Input (STT)**  
-   Once a face is detected, the user can ask questions using their voice. Speech is transcribed using [Whisper](https://github.com/openai/whisper).
+   Once a face is detected, the user can ask questions using their voice. Speech is transcribed using [speech_recognition](https://github.com/Uberi/speech_recognition.git).
 
 3. **Intelligent Response System**  
    - If the user asks about the time, weather, or wants to play YouTube videos (Linux only), the program handles those directly.
    - For general questions, the input is sent to OpenAI’s RAG (Retrieval-Augmented Generation) model, which answers based on the provided data sets (PDF).
 
 4. **Text-to-Speech Output**  
-   The response is spoken back to the user using [ElevenLabs TTS](https://elevenlabs.io/) for realistic, human-like voices.
+   The response is spoken back to the user using [pyttsx3](https://github.com/nateshmbhat/pyttsx3.git) for realistic, human-like voices.
 
 
 ![How it Works!](README%20Images/Readme_Image1.png)
@@ -48,9 +48,9 @@ This project is an advanced AI assistant that interacts with users only when the
 **Main Packages**:
 
 - OS and Dotenv (Getting API Keys from .env files)
-- SpeechRecognition (Old Speech Recognition Package)
-- Pyttsx3 (Old TTS - Text to Speech Package)
-- Numpy (Getting Full Audio from SoundDevice, Getting Best Match Index using the Argmin function in numpy which finds the smallest number in an array)
+- SpeechRecognition (Speech Recognition Package for **v1.0.0**)
+- Pyttsx3 (TTS - Text to Speech Package for **v1.0.0**)
+- Numpy (Getting Best Match Index using the Argmin function in numpy which finds the smallest number in an array)
 - Glob (Getting Image Files for Face Recognition)
 - FaceRecognition (Current Face Recognition Package)
 - Langchain (For LLM, PDF Files Loader, and Vector Database)
