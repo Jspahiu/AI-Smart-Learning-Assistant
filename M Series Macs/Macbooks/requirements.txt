@@ -9,11 +9,13 @@ elevenlabs
 sounddevice
 soundfile
 openai-whisper
-sounddevice
-soundfile
 SpeechRecognition
 opencv-python
 elevenlabs
 pyobjc
 webrtcvad
 geocoder
+langchain-community
+faiss_cpu
+token
+pyaudio
