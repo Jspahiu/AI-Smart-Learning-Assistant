@@ -5,7 +5,7 @@
 
 ## 🔗 Useful Links
 
-- 🌐 [Infomation Website](https://jspahiu.github.io/AI_Smart_Learning_Assistant_Website/) - **Which also includes the links below!**
+- 🌐 [Information Website](https://jspahiu.github.io/AI_Smart_Learning_Assistant_Website/) - **Which also includes the links below!**
 - 🌐 [Hack Club Summer Making Project Link](https://summer.hackclub.com/projects/7469) - **Vote/Follow this project here!!**
 - 🎥 [Demo Video](https://www.youtube.com/watch?v=...)
 - 🖼️ [Canva Slides](https://www.canva.com/design/DAGtr9JIF9c/WJH7KuGL-aDJ_i0GtBn2MQ/view?utm_content=DAGtr9JIF9c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fe98d52c)
@@ -120,7 +120,7 @@ If you like my project, please vote or follow for me for future support of this 
 
 ## 🔗 Useful Links
 
-- 🌐 [Infomation Website](https://jspahiu.github.io/AI_Smart_Learning_Assistant_Website/) - **Which also includes the links below!**
+- 🌐 [Information Website](https://jspahiu.github.io/AI_Smart_Learning_Assistant_Website/) - **Which also includes the links below!**
 - 🌐 [Hack Club Summer Making Project Link](https://summer.hackclub.com/projects/7469) - **Vote/Follow this project here!!**
 - 🎥 [Demo Video](https://www.youtube.com/watch?v=...)
 - 🖼️ [Canva Slides](https://www.canva.com/design/DAGtr9JIF9c/WJH7KuGL-aDJ_i0GtBn2MQ/view?utm_content=DAGtr9JIF9c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fe98d52c)
