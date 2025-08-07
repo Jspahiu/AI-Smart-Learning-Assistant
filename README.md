@@ -1,3 +1,5 @@
+[![AI Smart Learning Assistant](https://github-readme-stats.vercel.app/api/pin/?username=Jspahiu&repo=AI-Smart-Learning-Assistant)](https://github.com/Jspahiu/AI-Smart-Learning-Assistant)
+
 # AI Smart Learning Assistant with OPENAI Chatbot with Face Detection & Voice Interaction
 
 
