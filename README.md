@@ -13,7 +13,7 @@
 ---
 
 ## 👋 About Me
-I'm a passionate 12 year old student with a strong interest in Python and Artificial Intelligence. My favorite projects involve AI, and some game development. I am also in the Hack Club for extra support for my projects.
+I’m a passionate 12-year-old student who loves building with Python and AI. I created this project to explore how AI can interact with people in fun and smart ways!
 
 ---
 
