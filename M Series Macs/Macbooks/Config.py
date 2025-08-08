@@ -1,9 +1,4 @@
 import os
-# import whisper
-# import sounddevice as sd
-# import soundfile as sf
-# from elevenlabs import play
-# from elevenlabs.client import ElevenLabs
 from dotenv import load_dotenv
 
 load_dotenv()  # loads the .env file
