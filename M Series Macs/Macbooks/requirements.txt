@@ -17,3 +17,4 @@ faiss_cpu
 token
 pyaudio
 python-dotenv
+pygame
