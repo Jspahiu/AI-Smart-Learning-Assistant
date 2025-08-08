@@ -14,7 +14,7 @@ webrtcvad
 geocoder
 langchain-community
 faiss_cpu
-token
+tiktoken
 pyaudio
 python-dotenv
 pygame
