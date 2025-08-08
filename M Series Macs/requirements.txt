@@ -13,6 +13,7 @@ pyobjc
 webrtcvad
 geocoder
 langchain-community
+langchain_openai
 faiss_cpu
 tiktoken
 pyaudio
