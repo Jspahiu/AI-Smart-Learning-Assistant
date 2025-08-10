@@ -6,15 +6,6 @@ import os
 from detected_faces import DetectedFaces
 
 
-# For Mac
-#---------------------------
-# pip install cmake
-# pip install dlib==19.24.2    
-# pip install face_recognition   
-# pip install setuptool
-# pip install numpy==1.26.4
-# pip install opencv-python
-
 os.environ["QT_QPA_PLATFORM"] = "xcb"  # Use the X11 plugin
 
 
