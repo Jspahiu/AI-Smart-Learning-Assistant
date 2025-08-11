@@ -140,7 +140,7 @@ source venv/bin/activate
 ```
 - **Check Python Version if it is ![Python](https://img.shields.io/badge/python-3.12-brightgreen)**
 ```bash
-python3 --version
+python3.12 --version
 ```
 **It should end up something like this below**
 ```bash
