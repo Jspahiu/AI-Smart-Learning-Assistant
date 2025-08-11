@@ -167,17 +167,67 @@ ELEVENLABS_API_KEY=sk-
 
 11. Once you got your API keys, we need to add an image of yourself for the Face Recognition Model. So all you need to do is to put that image of yourself in the folder named, “**images**”.
 
-12. Make sure once again that you are in the right folder in your terminal named “**M Series Macs**”, and that you are connected to the **virtual environment**
+12. Make sure that you have the **right camera_id and mic_index** for your computer which is located in **Config.py**!
+```bash
+camera_id = 0
 
-13. Run the python command below to finally run the program,
+# Replace this with the correct microphone index
+mic_index = 1  # Change to the index of your USB microphone
+```
+
+13. Make sure once again that you are in the right folder in your terminal named “**M Series Macs**”, and that you are connected to the **virtual environment**
+
+14. Run the python command below to finally run the program,
 ```bash
 python my_voice_and_video_chatbot.py
 ```
-**How to Use Notes**
+## How to Use Notes
+
+### --- How To Use --- ###
 1. When the program runs, **always put your face in front of your camera**, unless you want to leave the program paused!
 2. Then **ask a question** based from the question available from [**here**](https://docs.google.com/document/d/1uVEmKQHGqlVKLykhiiiROP3_XhXZwjbI1lflShMULNk/edit?usp=sharing).
 3. **Wait** for the **question** to **finish**.
 4. To **exit the program**, say the word,"**Goodbye**", which should exit the program. If that does not work, do a keyboard interrupt by entering on your keyboard, **Control-C**.
+###
+
+### --- Configuring Program Details ---
+
+1. For the **RAG LLM**, if you want to **save and create the FAISS Database** please turn this below in line 50,
+```bash
+self.chatbot = Chatbot(["data_sets/Bill of Rights Full.pdf", "data_sets/Floor_Hockey.pdf", "data_sets/electric_cars_america.pdf", "data_sets/global_warming.pdf", 
+                                "data_sets/Justicia_Carnea.pdf", "data_sets/The Veldt.pdf", "data_sets/Nerves System.pdf", "data_sets/Parts Of Cells.pdf"]
+                                , False)
+```
+- To this, and what we are only changing is turning **False** to **True**!
+```bash
+self.chatbot = Chatbot(["data_sets/Bill of Rights Full.pdf", "data_sets/Floor_Hockey.pdf", "data_sets/electric_cars_america.pdf", "data_sets/global_warming.pdf", 
+                                "data_sets/Justicia_Carnea.pdf", "data_sets/The Veldt.pdf", "data_sets/Nerves System.pdf", "data_sets/Parts Of Cells.pdf"]
+                                , True)
+```
+- **After saving the database while running the program, make sure you asked a question to save your database and then change the True to False in line 50 for faster response times**
+
+2. For **Elevenlabs Voice ID**, please go to their website [**here**](https://elevenlabs.io/) and copy the Voice ID in the voice you selected to use and enter it in the file named, **Config.py**, which the line below is in **line 15**.
+```bash
+VOICE_ID = "3NFDHTNDKqip06i6bFkQ" # <------ Or Whatever Voice ID You Want!
+```
+
+3. For **other voice** settings, you can configure in **Config.py** which starts from **line 24** to **line 32**!
+```bash
+RECORD_SECONDS = 5
+FILENAME = "temp.wav"
+SAMPLERATE = 44100  # CD-quality audio
+
+SAMPLE_RATE = 16000
+CHANNEL = 1
+FRAME_DURATION = 30  # ms
+FRAME_SIZE = int(SAMPLE_RATE * FRAME_DURATION / 1000)
+MAX_SILENCE_FRAMES = 15  # ~0.5 seconds of silence
+```
+
+###
+
+
+##
 
 
 ---
