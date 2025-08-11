@@ -12,7 +12,7 @@ camera_id = 0  # Change to the index of your camera
 # Replace this with the correct microphone index
 mic_index = 1  # Change to the index of your microphone
 
-VOICE_ID = "" # <------ Whatever Voice ID You Want!
+VOICE_ID = "3NFDHTNDKqip06i6bFkQ" # <------ Or Whatever Voice ID You Want!
 RECORD_SECONDS = 5
 FILENAME = "temp.wav"
 SAMPLERATE = 44100  # CD-quality audio
