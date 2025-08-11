@@ -3,6 +3,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Python](https://img.shields.io/badge/python-3.11%20--%203.12-brightgreen?)
 
+## Summer of Making 2025 for the Hack Club! ##
 
 ![How it Works!](README%20Images/Readme_Image1.png)
 
