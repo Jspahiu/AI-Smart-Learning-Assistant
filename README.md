@@ -186,8 +186,8 @@ python my_voice_and_video_chatbot.py
 
 - Windows computers are sadly not compatible due to module supporting issues (face_recongition)
 - If you have an older pi like (Pi 4 or older), be aware of performance issues and compatibility issues since not have been tested on there
-- If you are running linux but another machine or/and a different computer, follow the linux tutorial but it has not been tested on any other linux OS (Except Raspberry Pi OS).
-- If you are running a intel mac, make sure you at least have a OS new enough for ![Python](https://img.shields.io/badge/python-3.12-brightgreen)
+- If you are running Linux but another machine or/and a different computer, follow the Linux tutorial but it has not been tested on any other Linux OS (Except Raspberry Pi OS).
+- If you are running a Intel Mac, make sure you at least have a OS new enough for ![Python](https://img.shields.io/badge/python-3.12-brightgreen)
 
 **SO NO GUARANTEE OR IMPOSSIBLE IT WILL WORK IF YOU DO NOT HAVE DEVICES WITH BOLD TEXT ABOVE**
 
