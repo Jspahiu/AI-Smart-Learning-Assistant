@@ -2,6 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Python](https://img.shields.io/badge/python-3.12-brightgreen)
+![Python](https://img.shields.io/badge/python-3.11-brightgreen)
 
 
 ![How it Works!](README%20Images/Readme_Image1.png)
@@ -83,11 +84,12 @@ This project is an advanced AI assistant that interacts with users only when the
 # 🏃 How to Run the Program (LOCALLY)
 
 ## For Linux (Raspberry Pi 5 - Raspberry Pi OS)
-
+![Python](https://img.shields.io/badge/python-3.11-brightgreen)v
 
 ---
 
 ## For Macs (M Series)
+![Python](https://img.shields.io/badge/python-3.12-brightgreen)
 
 ---
 
