@@ -1,5 +1,5 @@
 cmake
-dlib==19.24.2
+dlib==19.24.6
 face_recognition   
 setuptools
 numpy==1.26.4
