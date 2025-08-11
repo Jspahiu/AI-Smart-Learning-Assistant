@@ -131,7 +131,7 @@ cd "M Series Macs"
 7. **(Highly Recommended Step)** - Here is how to make a virtual environment since we have a lot of big packages with a lot of dependencies,
 - **Best to use ![Python](https://img.shields.io/badge/python-3.12-brightgreen) since that is what the code has been tested on**
 ```bash
-python3 -m venv venv
+python3.12 -m venv venv
 ```
 
 8. **(For Virtual Environments Only)** - Then to connect to the Virtual Environment that we made, enter the command below,
@@ -140,7 +140,7 @@ source venv/bin/activate
 ```
 - **Check Python Version if it is ![Python](https://img.shields.io/badge/python-3.12-brightgreen)**
 ```bash
-python3.12 --version
+python --version
 ```
 **It should end up something like this below**
 ```bash
