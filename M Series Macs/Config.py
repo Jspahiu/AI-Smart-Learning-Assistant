@@ -9,7 +9,7 @@ ELEVEN_API_KEY = os.getenv("ELEVENLABS_API_KEY")
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 #ELEVEN_API_KEY = ""
-VOICE_ID = "3NFDHTNDKqip06i6bFkQ"  # Rachel (or another voice ID)
+VOICE_ID = "3NFDHTNDKqip06i6bFkQ" # <------ Or Whatever Voice ID You Want!
 RECORD_SECONDS = 5
 FILENAME = "temp.wav"
 SAMPLERATE = 44100  # CD-quality audio
