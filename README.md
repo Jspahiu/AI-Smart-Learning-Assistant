@@ -1,8 +1,7 @@
 # AI Smart Learning Assistant with OPENAI Chatbot with Face Detection & Voice Interaction
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Python](https://img.shields.io/badge/python-3.12-brightgreen)
-![Python](https://img.shields.io/badge/python-3.11-brightgreen)
+![Python](https://img.shields.io/badge/python-3.11%20--%203.12-brightgreen?)
 
 
 ![How it Works!](README%20Images/Readme_Image1.png)
@@ -84,12 +83,101 @@ This project is an advanced AI assistant that interacts with users only when the
 # 🏃 How to Run the Program (LOCALLY)
 
 ## For Linux (Raspberry Pi 5 - Raspberry Pi OS)
-![Python](https://img.shields.io/badge/python-3.11-brightgreen)v
+![Python](https://img.shields.io/badge/python-3.11-brightgreen)
 
 ---
 
 ## For Macs (M Series)
-![Python](https://img.shields.io/badge/python-3.12-brightgreen)
+**Mac Requirements**:
+- **Supported Device** (The Mac)
+- **Terminal with Git**
+- **![Python](https://img.shields.io/badge/python-3.12-brightgreen)** (Mac)
+- **Code Editor or Normal Editor**
+- **Really Good Internet**
+
+*Or watch this video [**here**]("example") for a tutorial on how to run on Mac!*
+
+1. Open a new folder somewhere to put the code for the program
+Open a new terminal and lead your terminal to your directory by doing this below
+```bash
+cd your_folder_path
+```
+
+2. Once you located your terminal to your path, run this below to download the files directly from the project’s github repo:
+```bash
+git clone https://github.com/Jspahiu/AI-Smart-Learning-Assistant.git
+```
+
+3. Find the folder in your path named, “**AI-Smart-Learning-Assistant**” 
+
+4. Open the folder and delete the folder that does not support the Mac which is named (Linux (Raspberry Pi 5)).
+
+5. Also if you want, you may as well delete the readmes if you want to access the readme via Github
+
+6. In your terminal, we need to direct our terminal to our folder named, “M Series Macs”, so type this command below,
+```bash
+cd “AI-Smart-Learning-Assistant/M Series Macs”
+```
+
+**If you get too many arguments error, follow below**
+```bash
+cd AI-Smart-Learning-Assistant
+```
+```bash
+cd "M Series Macs"
+```
+
+7. **(Highly Recommended Step)** - Here is how to make a virtual environment since we have a lot of big packages with a lot of dependencies,
+- **Best to use ![Python](https://img.shields.io/badge/python-3.12-brightgreen) since that is what the code has been tested on**
+```bash
+python3 -m venv venv
+```
+
+8. **(For Virtual Environments Only)** - Then to connect to the Virtual Environment that we made, enter the command below,
+```bash
+source venv/bin/activate
+```
+- **Check Python Version if it is ![Python](https://img.shields.io/badge/python-3.12-brightgreen)**
+```bash
+python3 --version
+```
+**It should end up something like this below**
+```bash
+Python 3.12.0
+```
+
+9. To install the packages, enter the command below. But beware this can take quite a while depending on what type of Mac it is (Really only should be worried on a Intel Mac)
+```bash
+pip install -r requirements.txt
+```
+
+If you succeed with the installation, congrats, you made it through the toughest part of running this program! 
+
+10. Open a editor to enter our api keys in a file named, “**.env**”, which in it, it should have keys like this - 
+
+```bash
+OPENAI_API_KEY=sk-proj-
+ELEVENLABS_API_KEY=sk-
+```
+
+- For the **OPENAI_API_KEY**, get from **OpenAi’s** platform website, [**https://platform.openai.com/api-keys**](https://platform.openai.com/api-keys), which you should get the api key **(Highly Recommended to get some credits for GPT model usage)**
+
+- For the **ELEVENLABS_API_KEY**, go to their website at [**https://elevenlabs.io/app/settings/api-keys**](https://elevenlabs.io/app/settings/api-keys), where you can find the API key for **Elevenlabs**!
+
+11. Once you got your API keys, we need to add an image of yourself for the Face Recognition Model. So all you need to do is to put that image of yourself in the folder named, “**images**”.
+
+12. Make sure once again that you are in the right folder in your terminal named “**M Series Macs**”, and that you are connected to the **virtual environment**
+
+13. Run the python command below to finally run the program,
+```bash
+python my_voice_and_video_chatbot.py
+```
+**How to Use Notes**
+1. When the program runs, **always put your face in front of your camera**, unless you want to leave the program paused!
+2. Then **ask a question** based from the question available from [**here**](https://docs.google.com/document/d/1uVEmKQHGqlVKLykhiiiROP3_XhXZwjbI1lflShMULNk/edit?usp=sharing).
+3. **Wait** for the **question** to **finish**.
+4. To **exit the program**, say the word,"**Goodbye**", which should exit the program. If that does not work, do a keyboard interrupt by entering on your keyboard, **Control-C**.
+
 
 ---
 
@@ -99,7 +187,7 @@ This project is an advanced AI assistant that interacts with users only when the
 - Windows computers are sadly not compatible due to module supporting issues (face_recongition)
 - If you have an older pi like (Pi 4 or older), be aware of performance issues and compatibility issues since not have been tested on there
 - If you are running linux but another machine or/and a different computer, follow the linux tutorial but it has not been tested on any other linux OS (Except Raspberry Pi OS).
-- If you are running a intel mac, make sure you at least have a OS new enough for Python 3.12
+- If you are running a intel mac, make sure you at least have a OS new enough for ![Python](https://img.shields.io/badge/python-3.12-brightgreen)
 
 **SO NO GUARANTEE OR IMPOSSIBLE IT WILL WORK IF YOU DO NOT HAVE DEVICES WITH BOLD TEXT ABOVE**
 
