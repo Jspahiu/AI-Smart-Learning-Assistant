@@ -96,7 +96,7 @@ This project is an advanced AI assistant that interacts with users only when the
 - **Code Editor or Normal Editor**
 - **Really Good Internet**
 
-*Or watch this video [**here**]("example") for a tutorial on how to run on Mac!*
+*Or watch this video [**here**]("https://www.youtube.com/watch?v=UKL16WXS6-M") for a tutorial on how to run on Mac!*
 
 1. Open a new folder somewhere to put the code for the program
 Open a new terminal and lead your terminal to your directory by doing this below
