@@ -167,12 +167,12 @@ ELEVENLABS_API_KEY=sk-
 
 11. Once you got your API keys, we need to add an image of yourself for the Face Recognition Model. So all you need to do is to put that image of yourself in the folder named, “**images**”.
 
-12. Make sure that you have the **right camera_id and mic_index** for your computer which is located in **Config.py**!
+12. Make sure that you have the **right camera_id and mic_index** for your computer which is located in **my_voice_and_video_chatbot.py**!
 ```bash
 camera_id = 0
 
 # Replace this with the correct microphone index
-mic_index = 1  # Change to the index of your USB microphone
+mic_index = 0  # Change to the index of your USB microphone
 ```
 
 13. Make sure once again that you are in the right folder in your terminal named “**M Series Macs**”, and that you are connected to the **virtual environment**
