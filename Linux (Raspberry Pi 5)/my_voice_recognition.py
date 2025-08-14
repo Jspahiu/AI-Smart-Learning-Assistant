@@ -161,7 +161,7 @@ class VoiceRecognitionThread(threading.Thread):
         silence_frame_count = 0
         recording = False
 
-        with sd.InputStream(cevice=mic_index, channels=CHANNEL, samplerate=SAMPLE_RATE, dtype='int16', blocksize=FRAME_SIZE) as stream:
+        with sd.InputStream(device=mic_index, channels=CHANNEL, samplerate=SAMPLE_RATE, dtype='int16', blocksize=FRAME_SIZE) as stream:
             while True:
                 audio_block, _ = stream.read(FRAME_SIZE)
                 audio_bytes = audio_block.tobytes()
