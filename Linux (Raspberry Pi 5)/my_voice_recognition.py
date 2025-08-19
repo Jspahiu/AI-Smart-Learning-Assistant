@@ -112,13 +112,13 @@ class VoiceRecognitionThread(threading.Thread):
                         elif "weather" in text:
                             weather_description, temp_description, temp = check_weather()
                             self.speak_text(f"The weather today is {weather_description} with tempartures currently {temp} fahrenheit!")
-                            return
+                            continue
                         
                         elif "time" in text or "clock" in text:
                             what_time = what_time_exact()
                             time_day = time_of_day()
                             self.speak_text(f"Current it is {what_time} in the {time_day}!")
-                            return
+                            continue
 
 
                         elif "bye" in text or "exit" in text:
