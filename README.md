@@ -85,6 +85,151 @@ This project is an advanced AI assistant that interacts with users only when the
 
 ## For Linux (Raspberry Pi 5 - Raspberry Pi OS)
 ![Python](https://img.shields.io/badge/python-3.11-brightgreen)
+**Raspberry Pi 5 Requirements**
+- **Supported Device** (Raspberry Pi 5)
+- **SSH connection via another computer** or **connected keyboard, mouse, and monitor**
+- **Functional Camera** (For example, **USB camera**)
+- **Functional Microphone** (For example, **USB microphone**)
+- **Functional Speaker** (For example, **USB speaker**)
+- **Terminal with Git installed**
+- **![Python](https://img.shields.io/badge/python-3.11-brightgreen)** (Raspberry Pi 5)
+- **Code Editor or Normal Editor**
+- **Really Good Internet** (Better with the **Pi 5's cable connecter** since it will give you **faster internet speeds** with **better results**)
+
+***They will be a video tutorial soon on how to run the AI program on the Raspberry Pi 5!***
+
+1. Open a new folder somewhere to put the code for the program
+Open a new terminal and lead your terminal to your directory by doing this below
+```bash
+cd your_folder_path
+```
+
+2. Once you located your terminal to your path, run this below to download the files directly from the project’s github repo:
+```bash
+git clone https://github.com/Jspahiu/AI-Smart-Learning-Assistant.git
+```
+
+3. Find the folder in your path named, “**AI-Smart-Learning-Assistant**” 
+
+4. Open the folder and delete the folder that does not support the Raspberry Pi 5 which is named (M Series Macs).
+
+5. Also if you want, you may as well delete the readmes if you want to access the readme via Github
+
+6. In your terminal, we need to direct our terminal to our folder named, “Linux (Raspberry Pi 5)”, so type this command below,
+```bash
+cd AI-Smart-Learning-Assistant/Linux\ \(Raspberry\ Pi\ 5\)
+```
+
+7. **(Highly Recommended Step)** - Here is how to make a virtual environment since we have a lot of big packages with a lot of dependencies,
+- **Best to use ![Python](https://img.shields.io/badge/python-3.11-brightgreen) since that is what the code has been tested on**
+```bash
+python3.11 -m venv venv
+```
+
+8. **(For Virtual Environments Only)** - Then to connect to the Virtual Environment that we made, enter the command below,
+```bash
+source venv/bin/activate
+```
+- **Check Python Version if it is ![Python](https://img.shields.io/badge/python-3.11-brightgreen)**
+```bash
+python --version
+```
+**It should end up something like this below**
+```bash
+Python 3.11.0
+```
+9. **Make sure that you have PortAudio and Cmake on your Pi 5 by entering this command below**
+```bash
+sudo apt update
+sudo apt install portaudio19-dev
+sudo apt update
+sudo apt install cmake g++ make \
+    libopenblas-dev liblapack-dev \
+    libx11-dev libgtk-3-dev
+```
+
+10. To install the packages, enter the command below. But beware this can take quite a while depending on what type of Mac it is (Really only should be worried on a Intel Mac)
+```bash
+pip install -r requirements.txt
+```
+
+If you succeed with the installation, congrats, you made it through the toughest part of running this program! 
+
+11. Open a editor to enter our api keys in a file named, “**.env**”, which in it, it should have keys like this - 
+
+```bash
+OPENAI_API_KEY=sk-proj-
+ELEVENLABS_API_KEY=sk-
+```
+
+- For the **OPENAI_API_KEY**, get from **OpenAi’s** platform website, [**https://platform.openai.com/api-keys**](https://platform.openai.com/api-keys), which you should get the api key **(Highly Recommended to get some credits for GPT model usage)**
+
+- For the **ELEVENLABS_API_KEY**, go to their website at [**https://elevenlabs.io/app/settings/api-keys**](https://elevenlabs.io/app/settings/api-keys), where you can find the API key for **Elevenlabs**!
+
+12. Once you got your API keys, we need to add an image of yourself for the Face Recognition Model. So all you need to do is to put that image of yourself in the folder named, “**images**”.
+
+13. Make sure that you have the **right camera_id and mic_index** for your computer which is located in **Config.py** in **lines 18 and 21**!
+```bash
+camera_id = 0
+
+# Replace this with the correct microphone index
+mic_index = 1  # Change to the index of your USB microphone
+```
+
+14. Make sure once again that you are in the right folder in your terminal named “**Linux (Raspberry Pi 5)**”, and that you are connected to the **virtual environment**
+
+15. Run the python command below to finally run the program,
+```bash
+python my_voice_and_video_chatbot.py
+```
+## How to Use Notes
+
+### --- How To Use --- ###
+1. When the program runs, **always put your face in front of your camera**, unless you want to leave the program paused!
+2. Then **ask a question** based from the question available from [**here**](https://docs.google.com/document/d/1uVEmKQHGqlVKLykhiiiROP3_XhXZwjbI1lflShMULNk/edit?usp=sharing).
+3. **Wait** for the **question** to **finish**.
+4. To **exit the program**, say the word,"**Goodbye**", which should exit the program. If that does not work, do a keyboard interrupt by entering on your keyboard, **Control-C**.
+###
+
+### --- Configuring Program Details ---
+
+1. For the **RAG LLM**, if you want to **save and create the FAISS Database** please turn this below in line 50,
+```bash
+self.chatbot = Chatbot(["data_sets/Bill of Rights Full.pdf", "data_sets/Floor_Hockey.pdf", "data_sets/electric_cars_america.pdf", "data_sets/global_warming.pdf", 
+                                "data_sets/Justicia_Carnea.pdf", "data_sets/The Veldt.pdf", "data_sets/Nerves System.pdf", "data_sets/Parts Of Cells.pdf"]
+                                , False)
+```
+- To this, and what we are only changing is turning **False** to **True**!
+```bash
+self.chatbot = Chatbot(["data_sets/Bill of Rights Full.pdf", "data_sets/Floor_Hockey.pdf", "data_sets/electric_cars_america.pdf", "data_sets/global_warming.pdf", 
+                                "data_sets/Justicia_Carnea.pdf", "data_sets/The Veldt.pdf", "data_sets/Nerves System.pdf", "data_sets/Parts Of Cells.pdf"]
+                                , True)
+```
+- **After saving the database while running the program, make sure you asked a question to save your database and then change the True to False in line 50 for faster response times**
+
+2. For **Elevenlabs Voice ID**, please go to their website [**here**](https://elevenlabs.io/) and copy the Voice ID in the voice you selected to use and enter it in the file named, **Config.py**, which the line below is in **line 15**.
+```bash
+VOICE_ID = "3NFDHTNDKqip06i6bFkQ" # <------ Or Whatever Voice ID You Want!
+```
+
+3. For **other voice** settings, you can configure in **Config.py** which starts from **line 24** to **line 32**!
+```bash
+RECORD_SECONDS = 5
+FILENAME = "temp.wav"
+SAMPLERATE = 44100  # CD-quality audio
+
+SAMPLE_RATE = 16000
+CHANNEL = 1
+FRAME_DURATION = 30  # ms
+FRAME_SIZE = int(SAMPLE_RATE * FRAME_DURATION / 1000)
+MAX_SILENCE_FRAMES = 15  # ~0.5 seconds of silence
+```
+
+###
+
+
+##
+
 
 ---
 
