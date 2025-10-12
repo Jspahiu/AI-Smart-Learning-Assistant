@@ -17,7 +17,7 @@
 ---
 
 ## 👋 About Me
-I’m a passionate 12-year-old student who loves building with Python and AI. I created this project to explore how AI can interact with people in fun and smart ways!
+I’m a passionate 13-year-old student who loves building with Python and AI. I created this project to explore how AI can interact with people in fun and smart ways!
 
 ---
 
