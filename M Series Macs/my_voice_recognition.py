@@ -14,6 +14,7 @@ import sounddevice as sd
 import soundfile as sf
 from elevenlabs import play
 from elevenlabs.client import ElevenLabs
+from elevenlabs.play import play
 from Config import *
 import webrtcvad
 import numpy as np
