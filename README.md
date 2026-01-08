@@ -1,6 +1,6 @@
 # AI Smart Learning Assistant with OPENAI Chatbot with Face Detection & Voice Interaction
 
-# IF YOU ARE A CERTIFIER FOR CONGRESSIONAL APP CHALLENGE OR HACK CLUB, PLEASE EMAIL jonspahiu2012@gmail.com FOR REQUIRED API KEYS.
+## This project is not being maintained now due to the lack of popularity. So do not expect AI Smart Learning Assistant to work in newer versions for packages used here!
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Python](https://img.shields.io/badge/python-3.11%20--%203.12-brightgreen?)
